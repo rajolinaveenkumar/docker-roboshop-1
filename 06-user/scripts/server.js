@@ -3,7 +3,7 @@ const instana = require('@instana/collector');
 // MUST be done before loading anything else!
 instana({
     tracing: {
-        enabled: true
+        enabled: false
     }
 });
 
