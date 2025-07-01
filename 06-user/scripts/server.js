@@ -1,11 +1,11 @@
-const instana = require('@instana/collector');
-// init tracing
-// MUST be done before loading anything else!
-instana({
-    tracing: {
-        enabled: false
-    }
-});
+// const instana = require('@instana/collector');
+// // init tracing
+// // MUST be done before loading anything else!
+// instana({
+//     tracing: {
+//         enabled: false
+//     }
+// });
 
 const { MongoClient, ObjectId } = require('mongodb');
 const { createClient } = require('redis');
